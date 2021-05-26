@@ -1,14 +1,14 @@
 // Nome 
-var userName = prompt("Hey, come ti chiami?");
-console.log(userName);
+var Nome = prompt("Hey, come ti chiami?");
+console.log(Nome);
 
 // Cognome 
-var surname = prompt("Il tuo cognome?");
-console.log(surname);
+var Cognome = prompt("Il tuo cognome?");
+console.log(Cognome);
 
 // Colore preferito 
-var color = prompt("Colore preferito?");
-console.log(color);
+var Colore = prompt("Colore preferito?");
+console.log(Colore);
 
 // Risultato 
-document.getElementById("password").innerHTML = userName + surname + color + "21";
+document.getElementById("password").innerHTML = Nome + Cognome + Colore + "21";
