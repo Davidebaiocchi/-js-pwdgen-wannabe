@@ -1,0 +1,14 @@
+.password-generator {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(60, 9, 226);
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#password {
+    font-size: 30px;
+    color: mistyrose;
+}
