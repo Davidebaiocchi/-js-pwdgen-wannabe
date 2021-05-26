@@ -1,16 +1,16 @@
 // Nome 
-var Nome = prompt("Hey, come ti chiami?");
-console.log(Nome);
+var nome = prompt("Hey, come ti chiami?");
+console.log(nome);
 
 // Cognome 
-var Cognome = prompt("Il tuo cognome?");
-console.log(Cognome);
+var cognome = prompt("Il tuo cognome?");
+console.log(cognome);
 
 // Colore preferito 
-var Colore = prompt("Colore preferito?");
-console.log(Colore);
+var colore = prompt("Colore preferito?");
+console.log(colore);
 
-var password = Nome + Cognome + Colore + "21";
+var password = nome + cognome + colore + "21";
 
 // Risultato 
 document.getElementById("password").innerHTML = password.toLowerCase();
