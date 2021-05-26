@@ -10,5 +10,7 @@ console.log(Cognome);
 var Colore = prompt("Colore preferito?");
 console.log(Colore);
 
+var password = Nome + Cognome + Colore + "21";
+
 // Risultato 
-document.getElementById("password").innerHTML = Nome + Cognome + Colore + "21";
+document.getElementById("password").innerHTML = password.toLowerCase();
